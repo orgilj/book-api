@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: book-api
-          image: orgilj/book-api
+          image: neithsan/book-api #my image
           ports:
             - containerPort: 8080
           resources:
