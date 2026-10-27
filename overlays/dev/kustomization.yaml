@@ -2,5 +2,5 @@ resources:
   - ../../base
 
 images:
-  - name: orgilj/book-api
+  - name: orgilj/book-api # use my image
     newTag: latest

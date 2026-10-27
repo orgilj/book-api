@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: book-api
-          image: neithsan/book-api #my image
+          image: orgilj/book-api # hello i want to push
           ports:
             - containerPort: 8080
           resources:
