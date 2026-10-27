@@ -45,4 +45,4 @@ spec:
     - name: mysql
       port: 3306
       targetPort: 3306
-      nodePort: 30100
+      nodePort: 30100 #change this
