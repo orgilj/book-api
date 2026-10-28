@@ -19,7 +19,7 @@ public class BookController {   //test
     private final BookService bookService;  
 
     public BookController(BookService bookService) {
-        this.bookService = bookService;  # hello world
+        this.bookService = bookService;  
     }
 
     @GetMapping("/book") 
@@ -53,4 +53,4 @@ public class BookController {   //test
         model.addAttribute("books", books);
         return "index";
     }
-}  // update 2
+}  // update 27
